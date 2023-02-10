@@ -1,9 +1,13 @@
-import { useState } from "react";
+import Form from "./components/Form";
+import Header from "./components/Header";
 
 function App() {
-  const [count, setCount] = useState(0);
-
-  return <div className="App">Hola</div>;
+  return (
+    <div className="container mt-5">
+      <Header />
+      <Form />
+    </div>
+  );
 }
 
 export default App;
